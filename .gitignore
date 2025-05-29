@@ -1,1 +1,66 @@
-2D_DAM_5740_20kevery100/
+# Model files - these are typically large and shouldn't be in version control
+*.pth
+*.pt
+*.ckpt
+*.model
+*.weights
+
+# Model reports and logs
+model_report*.txt
+training_log*.txt
+*.log
+
+# Training artifacts and cached data
+*.pkl
+*.pickle
+training_history.pkl
+test_predictions.pkl
+
+# Dataset files (often large)
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Output directories
+output/
+runs/
+logs/
+checkpoints/
+
+# Tensorboard logs
+events.out.tfevents.*
+
+# MLflow tracking
+mlruns/
+
+# Weights & Biases
+wandb/
