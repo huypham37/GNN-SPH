@@ -1,6 +1,4 @@
 # Model files - these are typically large and shouldn't be in version control
-*.pth
-*.pt
 *.ckpt
 *.model
 *.weights
