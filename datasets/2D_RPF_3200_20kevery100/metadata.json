@@ -1,0 +1,53 @@
+{
+    "case": "RPF",
+    "solver": "SPH",
+    "density_evolution": false,
+    "dim": 2,
+    "dx": 0.025,
+    "dt": 0.0005,
+    "t_end": 2050.0,
+    "viscosity": 0.1,
+    "p_bg_factor": 0.05,
+    "g_ext_magnitude": 0.0,
+    "artificial_alpha": 0.0,
+    "free_slip": false,
+    "write_every": 100,
+    "is_bc_trick": false,
+    "sequence_length_train": 20001,
+    "num_trajs_train": 1,
+    "sequence_length_test": 10001,
+    "num_trajs_test": 1,
+    "num_particles_max": 3200,
+    "periodic_boundary_conditions": [
+        true,
+        true,
+        true
+    ],
+    "bounds": [
+        [
+            0.0,
+            1.0
+        ],
+        [
+            0.0,
+            2.0
+        ]
+    ],
+    "default_connectivity_radius": 0.036,
+    "vel_mean": [
+        0.00031023111660033464,
+        3.324821700508712e-13
+    ],
+    "vel_std": [
+        0.03587739169597626,
+        0.0006851413054391742
+    ],
+    "acc_mean": [
+        7.866497497843739e-08,
+        -5.5888385824647e-15
+    ],
+    "acc_std": [
+        0.00035788462264463305,
+        0.000308330578263849
+    ]
+}

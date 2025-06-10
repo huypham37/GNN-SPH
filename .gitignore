@@ -62,3 +62,5 @@ mlruns/
 
 # Weights & Biases
 wandb/
+
+*.md 
